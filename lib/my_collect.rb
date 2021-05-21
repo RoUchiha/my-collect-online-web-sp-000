@@ -7,3 +7,7 @@ end
 collection
 end
 
+my_collect(students) do |student|
+  name.split(" ").first 
+end
+  
