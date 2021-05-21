@@ -7,7 +7,7 @@ end
 collection
 end
 
-my_collect(students) do |student|
+my_collect(collection) do |student|
   name.split(" ").first 
 end
   
