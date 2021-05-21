@@ -5,5 +5,5 @@ def my_collect(collection)
   yield new_collection << array[i].split(" ").first
   i += 1 
 end
-collection
+new_collection
 end
